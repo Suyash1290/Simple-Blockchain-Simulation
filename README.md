@@ -15,10 +15,12 @@ Ensure you have Python installed (Python 3.x recommended).
 
 ## Installation
 1. Clone the repository:
+   
    git clone <repository_link>
    cd <repository_directory>
    
-2. Install dependencies (if any):
+3. Install dependencies (if any):
+   
    pip install -r requirements.txt  # (Not required for basic functionality)
 
 ## Usage
