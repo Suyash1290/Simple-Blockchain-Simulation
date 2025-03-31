@@ -1,4 +1,3 @@
-# Simple-Blockchain-Simulation
 # Simple Blockchain Simulation
 
 ## Overview
@@ -15,17 +14,20 @@ Ensure you have Python installed (Python 3.x recommended).
 
 ## Installation
 1. Clone the repository:
-   
+   ```sh
    git clone <repository_link>
    cd <repository_directory>
-   
-3. Install dependencies (if any):
-   
+   ```
+2. Install dependencies (if any):
+   ```sh
    pip install -r requirements.txt  # (Not required for basic functionality)
+   ```
 
 ## Usage
 Run the script using:
+```sh
 python blockchain.py
+```
 
 ### Menu Options:
 1. **Add Block**: Enter transactions to be added to a new block.
@@ -35,6 +37,7 @@ python blockchain.py
 5. **Exit**: Quit the program.
 
 ## Example Output
+```
 1. Add Block
 2. Display Blockchain
 3. Check Validity
@@ -44,6 +47,7 @@ Enter your choice: 1
 Enter transactions (comma separated): Alice->Bob:10, Bob->Charlie:5
 
 Block added successfully!
+```
 
 ## Tampering Demonstration
 If you modify a block's data, the blockchain validation will fail, indicating tampering.
